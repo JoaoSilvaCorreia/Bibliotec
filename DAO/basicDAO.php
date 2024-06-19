@@ -4,10 +4,10 @@ class basicDAO{
 	public $mysql;
 
 	function __construct(){
-		$servername = "localhost";
-		$username = "root";
-		$password = "palmeiras1914";
-		$dbname = "BIBLIOTECA";
+		$servername = "********";
+		$username = "********";
+		$password = "*********";
+		$dbname = "*********";
 
 
 		$this->mysql = new mysqli($servername, $username, $password, $dbname);
